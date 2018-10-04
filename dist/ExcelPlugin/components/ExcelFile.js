@@ -89,8 +89,12 @@ var ExcelFile = function (_React$Component) {
                     return sheet.props.name;
                 }),
                 Sheets: {},
-                Header: sheet.props.header,
-                Footer: sheet.props.footer
+                Headers: _react2.default.Children.map(this.props.children, function (sheet) {
+                    return sheet.props.header;
+                }),
+                Footers: _react2.default.Children.map(this.props.children, function (sheet) {
+                    return sheet.props.footer;
+                })
             };
 
             _react2.default.Children.forEach(this.props.children, function (sheet) {
