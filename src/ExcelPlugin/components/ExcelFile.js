@@ -66,7 +66,9 @@ class ExcelFile extends React.Component {
     download() {
         const wb = {
             SheetNames: React.Children.map(this.props.children, sheet => sheet.props.name),
-            Sheets: {}
+            Sheets: {},
+            Header: sheet.props.header,
+            Footer: sheet.props.footer
         };
 
         React.Children.forEach(this.props.children, sheet => {
