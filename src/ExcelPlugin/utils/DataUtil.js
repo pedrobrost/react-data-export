@@ -1,4 +1,4 @@
-import XLSX from "tempa-xlsx";
+import XLSX from "@pbrost-gral/tempa-xlsx";
 
 const strToArrBuffer = (s) => {
     var buf = new ArrayBuffer(s.length);

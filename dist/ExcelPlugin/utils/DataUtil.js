@@ -7,7 +7,7 @@ exports.excelSheetFromDataSet = exports.excelSheetFromAoA = exports.dateToNumber
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _tempaXlsx = require('tempa-xlsx');
+var _tempaXlsx = require('@pbrost-gral/tempa-xlsx');
 
 var _tempaXlsx2 = _interopRequireDefault(_tempaXlsx);
 

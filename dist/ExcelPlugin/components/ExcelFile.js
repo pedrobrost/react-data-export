@@ -16,7 +16,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _fileSaver = require("file-saver");
 
-var _tempaXlsx = require("tempa-xlsx");
+var _tempaXlsx = require("@pbrost-gral/tempa-xlsx");
 
 var _tempaXlsx2 = _interopRequireDefault(_tempaXlsx);
 
