@@ -5,8 +5,8 @@ import ExcelColumn from "./ExcelColumn";
 export default class ExcelSheet extends React.Component {
     static propsTypes = {
         name: PropTypes.string.isRequired,
-        header: PropTypes.string.isRequired,
-        footer: PropTypes.string.isRequired,
+        header: PropTypes.string,
+        footer: PropTypes.string,
         data: PropTypes.arrayOf(PropTypes.object),
         dataSet: PropTypes.arrayOf(PropTypes.object),
         value: PropTypes.oneOfType([
