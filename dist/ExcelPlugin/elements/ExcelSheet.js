@@ -47,8 +47,8 @@ var ExcelSheet = function (_React$Component) {
 
 ExcelSheet.propsTypes = {
     name: _propTypes2.default.string.isRequired,
-    header: _propTypes2.default.string,
-    footer: _propTypes2.default.string,
+    header: _propTypes2.default.string.isRequired,
+    footer: _propTypes2.default.string.isRequired,
     data: _propTypes2.default.arrayOf(_propTypes2.default.object),
     dataSet: _propTypes2.default.arrayOf(_propTypes2.default.object),
     value: _propTypes2.default.oneOfType([_propTypes2.default.array, _propTypes2.default.func]).isRequired,
